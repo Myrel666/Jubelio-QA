@@ -25,30 +25,6 @@ element = @@driver.find_element(:xpath => "//button[@type='submit' and span[text
 wait = Selenium::WebDriver::Wait.new(timeout: 30);
 wait.until { @@driver.find_element(:xpath => "//a[@href='/home']") };
 
-
-
-# WebElement elesendKeys = @@driver.findElement(By.NAME, "email");
-# elesendKeys = @@driver.findElement(name: "email");
-# WebElement elesendKeys = @@driver.findElement(name: "email");
-# input_element = driver.find_element(:name, "nama-atribut")
-# WebElement elesendKeys = driver.findElement(By.id("TextBox"));
-
-# elesendKeys.sendKeys("qa.rakamin.jubelio@gmail.com");
-# WebElement elesendKeys = driver.findElement(By.NAME("password"));
-# elesendKeys.sendKeys("elesendKeys.sendKeys("qa.rakamin.jubelio@gmail.com");");
-# element = @@driver.find_element(:xpath => "//*[@type='submit' and contains(text(),'Login')]")
-# # Find the element using driver object
-# # element = @@driver.find_element(:xpath => "//*[@class='checkmark' and contains(text(),'Apple')]")
-# wait = Selenium::WebDriver::Wait.new(timeout: 30)
-# # Wait until the element is displayed
-# wait.until { element.displayed? }
-# @@driver.find_element(:xpath =>  "//*[@type='submit' and contains(text(),'Login')]").click
-# @@driver.find_element(:xpath => "//*[@class='checkmark' and contains(text(),'Apple')]").click
-# Wait for the condition
-# wait.until { @@driver.find_element(:css, ".products-found span").text == "9 Product(s) found." }
-# actualValue = @@driver.find_element(:css, ".products-found span").text
-# Assert the expected text with actual text
-# assert_equal(actualValue, "9 Product(s) found.")
 end
 
 def teardown
