@@ -1,0 +1,4 @@
+# Jubelio-QA
+
+-API
+-Selenium
